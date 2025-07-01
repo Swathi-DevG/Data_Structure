@@ -1,0 +1,42 @@
+#include "main.h"
+
+int main() {
+
+    Node* head = NULL;
+    int choice;
+    while (true) {
+        cout<<"Press\n0. Print List\n1. To insert\n2. Exit\n";
+        cin>>choice;
+        if (choice == 0) {
+            print_list(head);
+        }
+        else if (choice == 1) {
+            cout<<"Press\n1. To insert First\n2. To Insert last\n3. Insert after\n";
+            cin >> choice;
+            if (choice == 1) {
+                T data;
+                cout << "Enter the data to insert: ";
+                cin >> data;
+                insert_at_first(&head, data);
+            }
+            if (choice == 2) {
+                T data;
+                cout << "Enter the data to insert: ";
+                cin >> data;
+                insert_at_last(&head, data);
+            }
+            if (choice == 3) {
+                T data;
+                cout << "Enter the data to insert: ";
+                cin >> data;
+                T Gdata;
+                cout << "Enter the data present in List: ";
+                cin >> Gdata;
+                insert_after(&head, Gdata, data);
+            }
+        }
+        else if (choice == 2) break;
+    }
+}
+
+
