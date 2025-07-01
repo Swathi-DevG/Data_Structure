@@ -10,4 +10,4 @@ Next Pointer: Contains the address to the next node
 ### 1. Single Linked Lists
 A singly linked list is a linear data structure where each element (called a node) points to the next node in the sequence.
 #### 🛠️ Concepts Covered
-- Insertion, display
+- Insertion, display, Deletion.

@@ -5,7 +5,7 @@ int main() {
     Node* head = NULL;
     int choice;
     while (true) {
-        cout<<"Press\n0. Print List\n1. To insert\n2. Exit\n";
+        cout<<"Press\n0. Print List\n1. To insert\n2. To Delete\n3. Exit\n";
         cin>>choice;
         if (choice == 0) {
             print_list(head);
@@ -35,7 +35,23 @@ int main() {
                 insert_after(&head, Gdata, data);
             }
         }
-        else if (choice == 2) break;
+        else if (choice == 2) {
+            cout<<"Press\n1. To delete First\n2. To delete last\n3. delete node\n";
+            cin >> choice;
+            if (choice == 1) {
+                delete_first(&head);
+            }
+            if (choice == 2) {
+                delete_last(&head);
+            }
+            if (choice == 3) {
+                T Gdata;
+                cout << "Enter the data to delete: ";
+                cin >> Gdata;
+                delete_node(&head, Gdata);
+            }
+        }
+        else if (choice == 3) break;
     }
 }
 

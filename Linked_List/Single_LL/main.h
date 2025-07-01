@@ -18,4 +18,8 @@ void insert_at_first(Node **head, T data);
 void insert_at_last(Node **head, T data);
 void insert_after(Node **head, T Gdata, T data);
 
+void delete_first(Node **head);
+void delete_last(Node **head);
+void delete_node(Node **head, T Gdata);
+
 #endif
