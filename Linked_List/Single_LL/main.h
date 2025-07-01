@@ -22,4 +22,6 @@ void delete_first(Node **head);
 void delete_last(Node **head);
 void delete_node(Node **head, T Gdata);
 
+void reverse_list(Node **head);
+void reverse_recursive(Node **head);
 #endif
