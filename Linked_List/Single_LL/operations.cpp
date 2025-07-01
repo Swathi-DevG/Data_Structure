@@ -41,3 +41,22 @@ void reverse_recursive(Node **head) {
 
     *head = rest;
 }
+
+void find_middle(Node *head) {
+    if(head == NULL) {
+        cout <<"Error: Empty list\n";
+        return;
+    }
+
+    Node *slow = head;
+    Node *fast = head;
+    
+    while(fast != NULL && fast->next != NULL) {
+         slow = slow->next;
+         fast = fast->next->next;
+    }
+
+    print_list(head);
+    cout<<"Mid Node is: "<<slow->data<<endl;
+    return;
+}

@@ -5,7 +5,7 @@ int main() {
     Node* head = NULL;
     int choice;
     while (true) {
-        cout<<"Press\n0. Print List\n1. To insert\n2. To Delete\n3. Reverse List\n4. Exit\n";
+        cout<<"Press\n0. Print List\n1. To insert\n2. To Delete\n3. Reverse List\n4. find middle\n5. Exit\n";
         cin>>choice;
         if (choice == 0) {
             print_list(head);
@@ -54,7 +54,10 @@ int main() {
         else if (choice == 3) {
             reverse_recursive(&head);
         }
-        else if (choice == 4) break;
+        else if (choice == 4) {
+            find_middle(head);
+        }
+        else if (choice == 5) break;
     }
 }
 

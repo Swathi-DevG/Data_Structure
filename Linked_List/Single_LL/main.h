@@ -24,4 +24,7 @@ void delete_node(Node **head, T Gdata);
 
 void reverse_list(Node **head);
 void reverse_recursive(Node **head);
+void find_middle(Node *head);
+
+
 #endif

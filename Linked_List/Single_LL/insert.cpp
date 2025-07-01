@@ -29,7 +29,6 @@ void insert_at_last(Node **head, T data) {
 }
 
 void insert_after(Node **head, T Gdata, T data) {
-    
     if (*head == NULL) {
         cout<<"Error: Empty List\n";
         return;
