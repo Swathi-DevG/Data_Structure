@@ -13,3 +13,14 @@ A singly linked list is a linear data structure where each element (called a nod
 - Insertion, display, Deletion.
 - Reverse Linked List
 - Find middle node
+
+## Stacks
+Stack is one of the basic linear Data structure, that we use for storing our data. Data in a stack is stored in a serialized manner. Stack is that the data first entered in the stack will be at the last of the stack. This is one of the reason why we also called Stack a LIFO Data Structure, i.e; Last in First Out.
+#### 🛠️ Concepts Covered
+- Implementation of Stack using array
+- Implementation of Stack using linked list
+- Infix to Postfix Conversion
+- Infix to Prefix Conversion
+- Postfix Evaluation
+- Prefix Evaluation
+- Balanced Paranthesis
