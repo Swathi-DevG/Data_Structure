@@ -24,3 +24,8 @@ Stack is one of the basic linear Data structure, that we use for storing our dat
 - Postfix Evaluation
 - Prefix Evaluation
 - Balanced Paranthesis
+
+## Queue
+A Queue is another type of Data Structure, generally done via arrays. Generally, Queues are FIFO i.e. First in First out. A good example would be people standing at a billing counter in a queue, the person who comes first, will be served first.
+#### 🛠️ Concepts Covered
+- Implementation of Circular Queue using array
