@@ -40,3 +40,10 @@ A binary tree can be defined as a finite set of elements, which can either be em
 - Building Binary Tree from postorder.
 - Traversing Binary Tree in Postorder.
 - Traversing Binary Tree in Inorer.
+### 2. Binary Search Tree
+A binary search tree is a tree in which the data in left subtree is less than the root and the data in right subtree is greater than the root.
+#### 🛠️ Concepts Covered
+- Insert, Delete, Search
+- Inorder, Preorder, Postorder Traversal
+- Find minimum and maximum
+- Find height and number of nodes in tree
